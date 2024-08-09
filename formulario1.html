@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Universidade</title>
+</head>
+<body>
+    <h1> Sistema de Gestão Acadêmica</h1>
+
+    <b>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</b> <br>
+
+    <br> <form>
+        <label for="flogin">Login:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lsenha">Senha:</label><br>
+        <input type="text" id="lsenha" name="lsenha">
+    
+    </form>
+   
+   <br> <label for="Status">Status:</label>
+
+    <select name="status" id="status">
+      <option value="ativo">ativo</option>
+      <option value="inativo">inativo</option>
+      
+        </select>
+        
+       <form>
+           <br> <label for="Tipo">Tipo</label>
+             <input type="radio" id="html" name="Técnico" value="Técnico">
+            <label for="Técnico">Técnico</label>
+            <input type="radio" id="Professor" name="Professor" value="Professor">
+            <label for="Professor">Professor</label>
+            <input type="radio" id="Aluno" name="Aluno" value="Aluno">
+            <label for="Aluno">Aluno</label>
+          </form>
+          
+          <form >
+           <br> <label for="Data Criação">Data Criação:</label>
+                <input type="text" id="fdata" name="fdata"> <br>
+
+          <form>
+            <br> <label for="Perfil">Perfil</label>
+            <input type="radio" id="1" name="Convidado" value="Convidado">
+            <label for="Convidado">Convidado</label>
+            <input type="radio" id="2" name="Administrador" value="Administrador">
+            <label for="Administrador">Administrador</label>
+        </form>
+        
+        <form >
+
+            <br><label for="Observações">Observações</label><br>
+
+           <br> <textarea id="Observações" name="Observações" rows="4" cols="50">
+            
+            </textarea>
+        </form>
+        
+        <label for="Módulos">Módulos</label>
+        <br><input type="checkbox" id="1" name="1" value="Compras">
+        <label for="1"> Compras </label>
+        <input type="checkbox" id="2" name="2" value="Biblioteca">
+        <label for="2"> Biblioteca</label>
+        <input type="checkbox" id="3" name="3" value="Acadêmico">
+        <label for="3"> Acadêmico</label> <br>
+        <input type="checkbox" id="4" name="4" value="Documentação">
+        <label for="4">Documentação</label>
+        <input type="checkbox" id="5" name="5" value="Recursos Humanos">
+        <label for="5">Recursos Humanos</label>
+        
+        <form >
+            <br><input type="submit" value="Cadastrar">
+            <input type="reset" value="Excluir">
+        </form>
+</html>
